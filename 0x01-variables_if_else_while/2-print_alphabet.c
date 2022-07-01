@@ -11,9 +11,8 @@ int main(void)
 	int space;
 
 	for (ch = 'a'; ch <= 'z'; ch++)
-	putchar(ch);
-	
+		putchar(ch);
 	space = '\n';
-      	putchar(space);
+	putchar(space);
 	return (0);
 }
