@@ -3,17 +3,16 @@
 /**
  *main - Fre
  *
- *Return: Evet
+ *Return: Alwats
  */
 int main(void)
 {
-	int i;
+	int ch;
 	int space;
 
-	for (i = 0; i < 10; i++)
-		putchar();
+	for (ch = 'z'; ch >= 'a'; ch--)
+		putchar(ch);
 	space = '\n';
 	putchar(space);
 	return (0);
 }
-
