@@ -11,7 +11,7 @@ int main(void)
 	int space;
 
 	for (i = 0; i < 10; i++)
-		putchar();
+		putchar(i);
 	space = '\n';
 	putchar(space);
 	return (0);
