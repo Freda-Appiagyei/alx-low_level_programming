@@ -11,10 +11,12 @@ int main(void)
 	int space;
 
 	for (ch = 'a'; ch <= 'z'; ch++)
+	{
 		if (ch != 'q' || ch != 'e')
 			;
 		else
 			putchar(ch);
+	}
 	space = '\n';
 	putchar(space);
 	return (0);
