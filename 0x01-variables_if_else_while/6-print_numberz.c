@@ -12,7 +12,6 @@ int main(void)
 
 	for (i = 0; i < 10; i++)
 		printf("%d", i);
-	putchar(i);
 	space = '\n';
 	putchar(space);
 	return (0);
