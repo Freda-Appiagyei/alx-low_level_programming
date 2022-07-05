@@ -1,17 +1,19 @@
 #include "main.h"
 
 /**
- *main - Every
+ *main - Entry point
  *
- *Return: Gr
+ *Return: Always 0
  */
-int _putchar(void)
+int main(void)
 {
-	int space;
-	char a;
-a = "_putchar";
-putchar(a);
-	space = "\n";
- putchar(space);
+	_putchar("p");
+	_putchar("u");
+	_putchar("t");
+	_putchar("c");
+	_putchar("h");
+	_putchar("a");
+	_putchar("r");
+	_putchar("\n");
 	return (0);
 }
