@@ -1,12 +1,17 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  *main - Every
  *
  *Return: Gr
  */
-int main(void)
+int _putchar(void)
 {
-	printf("_putchar\n");
+	int space;
+	char a;
+a = "_putchar";
+putchar(a);
+	space = "\n";
+ putchar(space);
 	return (0);
 }
