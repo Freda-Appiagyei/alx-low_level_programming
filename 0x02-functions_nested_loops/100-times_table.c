@@ -15,12 +15,14 @@ void print_times_table(int n)
 	{
 		for (i = 0; i <= n; i++)
 		{
-		k = 1
-		for (j = 0; j <= n; j++)
+		k = 1;
+		for (j = 0; j < n; j++)
 		{
 			k = i * j;
+			printf("%d, \n", k);
 		}
+		printf("%d", j * i);
+		printf("\n");
 		}
 	}
-printf("%d, \n", k);
 }
