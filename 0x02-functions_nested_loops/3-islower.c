@@ -1,11 +1,17 @@
 #include "main.h"
 
 /**
- *main - check the code.
+ *_islower - check the code.
  *
- *Return: Always 0.
+ *Return: Always 0
+ *
+ *c - A value
  */
-int main(void)
+int _islower(int c)/* c - a val*/
 {
+	if (c >= 'a' && c <= 'z')
+	{
+		return (1);
+	}
 	return (0);
 }
