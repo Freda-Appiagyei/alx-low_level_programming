@@ -10,7 +10,6 @@ int _abs(int);
 {
 	int r;
 
-
 	r = abs();
 	printf("%d\n", r);
 	return (0);
