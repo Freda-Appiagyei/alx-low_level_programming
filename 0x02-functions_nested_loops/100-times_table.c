@@ -2,17 +2,17 @@
 #include <stdio.h>
 
 /**
- *main - check code
- *
+ *print_times_table - check code
+ *@n: paraamter
  *Return: Always 0
  */
 void print_times_table(int n)
 {
-	int i = n;
+	int i;
 	int j;
 	int k;
 
-	if (n > 15 || n < 0)
+	if (n < 15 || n > 0)
 	{
 		for (i = 0; i <= n; i++)
 		{
@@ -23,7 +23,7 @@ void print_times_table(int n)
 			printf("%d, \n", k);
 		}
 		printf("%d", j * i);
-		printf("\n");
+		_putchar("\n");
 		}
 	}
 }
