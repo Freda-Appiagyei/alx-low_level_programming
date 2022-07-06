@@ -2,10 +2,8 @@
 
 /**
  *_islower - check the code.
- *
- *Return: Always 0
- *
- *c - A value
+ *@c:Parameter
+ *Return: Alway 0
  */
 int _islower(int c)/* c - a val*/
 {
