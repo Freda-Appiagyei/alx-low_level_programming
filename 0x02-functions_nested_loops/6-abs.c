@@ -1,12 +1,18 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib>
 
 /**
- *main - check the code
+ *_abs - check the code
  *
  *Return: Always 0.
  */
-int main(void)
+int _abs(int);
 {
+	int r;
+
+
+	r = abs();
+	printf("%d\n", r);
 	return (0);
 }
