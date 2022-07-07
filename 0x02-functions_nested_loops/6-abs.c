@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  *_abs - check the code
@@ -8,9 +7,8 @@
  */
 int _abs(int a)
 {
-	int r;
-
-	r = abs(a);
-	printf("%d\n", r);
+	if (n < 0)
+	a = -a;
+	printf("%d\n", a);
 	return (0);
 }
