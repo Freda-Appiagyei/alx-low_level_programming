@@ -22,8 +22,7 @@ void print_times_table(int n)
 				k = i * j;
 				printf("%d, ", k);
 			}
-		printf("%d", j * i);
-		printf('\n');
+		printf("%d\n", j * i);
 		}
 	}
 }
