@@ -1,12 +1,17 @@
 #include "main.h"
 
 /**
- *main - check the code
- *
+ *print_last_digit - check the code
+ *@n: paramter
  *Return: Always 0.
  */
-int main(void)
+int print_last_digit(int n)
 {
-	return (0);
+	int a;
+
+	if n < 0
+		n = -n;
+	a = n % 10;
+	return (a);
 }
 
