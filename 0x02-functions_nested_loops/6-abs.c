@@ -7,8 +7,7 @@
  */
 int _abs(int a)
 {
-	if (n < 0)
-	a = -a;
-	printf("%d\n", a);
-	return (0);
+	if (a < 0)
+		a = -a;
+	return (a);
 }
