@@ -14,6 +14,7 @@ int print_last_digit(int n)
 		n = -n;
 	}
 	a = n % 10;
-	return (a);
+	printf("%d", a);
+	return (0);
 }
 
