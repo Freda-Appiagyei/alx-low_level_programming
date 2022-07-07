@@ -2,11 +2,15 @@
 #include <stdio.h>
 
 /**
- *main - check the code
- *
+ *add - check the code
+ *@a: parameter
+ *@b: parameter
  *Return: Always 0.
  */
-int main(void)
+int add(int a, int b)
 {
-	return (0);
+int c;
+
+c = a + b;
+	return (c);
 }
