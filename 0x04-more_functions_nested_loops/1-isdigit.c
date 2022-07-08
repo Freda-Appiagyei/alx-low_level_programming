@@ -11,8 +11,9 @@
 int _isdigit(int c)
 {
 	if (c >= 0 && c <= 9)
-		printf("%c: 1\n", c);
+		printf("%c: ", c);
+		return (1);
 	else
-		printf("%c: 0\n", c);
-	return (0);
+		printf("%c: ", c);
+		return (0);
 }
