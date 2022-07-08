@@ -10,5 +10,6 @@ int main(void)
 	print_line(6);
 	print_diagonal(4);
 	print_square(3);
+	print_number(5);
 	return (0);
 }
