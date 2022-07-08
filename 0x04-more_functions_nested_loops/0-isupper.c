@@ -5,7 +5,7 @@
  *
  *@c: paramter
  *
- *Return : Always 0
+ *Return: Always 0
  */
 int _isupper(int c)
 {
