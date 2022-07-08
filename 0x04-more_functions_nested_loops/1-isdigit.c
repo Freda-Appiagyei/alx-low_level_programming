@@ -11,6 +11,6 @@
 int _isdigit(int c)
 {
 	if (c >= 0 && c <= 9)
-		return ("%c: 1");
-	return ("%c: 0");
+		return ("%c: 1", c);
+	return ("%c: 0", c);
 }
