@@ -9,5 +9,6 @@ int main(void)
 	print_most_numbers();
 	print_line(6);
 	print_diagonal(4);
+	print_square(3);
 	return (0);
 }
