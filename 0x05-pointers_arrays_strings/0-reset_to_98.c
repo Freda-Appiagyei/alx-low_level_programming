@@ -3,7 +3,7 @@
 
 /**
  * reset_to_98 - check the code
- * @n: pointer
+ * @m: pointer
  * Return: Always 0.
  */
 
