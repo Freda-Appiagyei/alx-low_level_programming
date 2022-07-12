@@ -7,9 +7,7 @@
  * Return: Always 0.
  */
 
-void reset_to_98(int *n)
+void reset_to_98(int *m)
 {
-	*n = 98;
-	printf("n=%d\n", n);
-	return (0);
+	*m = 98;
 }
