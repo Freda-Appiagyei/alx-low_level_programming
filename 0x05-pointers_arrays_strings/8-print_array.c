@@ -13,9 +13,7 @@ void print_array(int *a, int n)
 
 	for (i = 0; i <= n - 2; i++)
 	{
-		if a[i] = '\0';
-			break;
-		else
+		if a[i] != '\0'
 			printf("%d, ", a[i]);
 	}
 	printf("%d", a[i]);
