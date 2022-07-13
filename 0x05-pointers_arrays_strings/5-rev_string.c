@@ -9,11 +9,11 @@
  */
 void rev_string(char *s)
 {
-	int i, temp, left , len, right;
+	int i, temp, left, len, right;
 
 	left = 0;
 	len = strlen(s);
-	right = len -1;
+	right = len - 1;
 
 	for (i = left; i < right; i++)
 	{
@@ -22,4 +22,5 @@ void rev_string(char *s)
 		s[right] = temp;
 		right--;
 	}
+}
 
