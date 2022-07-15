@@ -10,13 +10,13 @@
  */
 int _strcmp(char *s1, char *s2)
 {
-	while (*s1)
-	{
-		if (*s1 != *s2)
-			break;
-		s1++;
-		s2++;
-	}
+	int p;
+	int b;
 
-	return (*(const unsigned char *)s1 - *(const unsigned char *)s2)
+	while (s1[p] != '\0' && b == 0)
+	{
+		b = s1[p] - s2[p];
+		p++;
+	}
+	return (b);
 }
